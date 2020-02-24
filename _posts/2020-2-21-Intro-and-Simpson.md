@@ -1,8 +1,7 @@
 ---
 layout: post
-title: Welcome to Esoteria!
+title: Welcome to Esoteria, a personal blog by Nicholas Jin!
 ---
-# Welcome to Esoteria, a personal blog by Nicholas Jin
 This blog is focused on data science, but I will often incorporate topics and concepts from a wide gamut of fields –– mathematics, physics, statistics, computer science, machine learning, AI, cryptography, game theory, and more. My background is broadly cross-sectional, and I know a number of very-specific and not-even-that-funny-domain-specific-jokes, so let it not be said that you were not warned!
 
 # Learning with a toy dataset
