@@ -176,7 +176,9 @@ Now let us return to the SAT/ACT data. We've implied that Simpson's Paradox is i
 Each state is colored by the relative difference in participation rate of SAT/ACT. Red points are states where most students take the SAT; blue points are states where most take the ACT. Our data separates itself neatly into distinct populations, each featuring a positive correlation between SAT and ACT scores.
 
 
-Thus, for this dataset, we have resolved Simpson's Paradox. Our spurious negative correlation is the result of a selection bias. Most students choose to take either the SAT or the ACT (but not both), depending primarily on where they live. Since it costs resources (money, time, energy, etc.) to prepare for a non-mandatory standardized test, only those that are better equipped to take the alterative do so. Thus, any low-participation average test score is in some sense sampled from the tail of the "true" score distribution, the hypothetical alternate-test performance of every student in the state, and higher than what a more representative sample would show.
+Thus, for this dataset, we have resolved Simpson's Paradox. Our spurious negative correlation is the result of a selection bias. Most students choose to take either the SAT or the ACT (but not both), depending primarily on where they live. Since it costs resources (money, time, energy, etc.) to prepare for a non-mandatory standardized test, only those that are better equipped to take the alterative do so, so alternative test scores are in general higher than the mandatory one.
+
+Consider Connecticut, a state that had **mandatory SAT testing in 2017**. Every graduating senior in the state took the test, prepared or not. The graduating seniors that took the 2017 ACT in Connecticut were those that *went out of their way* to do so, and therefore were disproportionately prepared for that exam. Thus, the average ACT score for that state was higher than what you might expect if it had been mandatory. Since in this case the ACT was an alternative test, it was subject to a selection bias, and this is true of alternative tests in general.
 
 ## Simpson's Paradox, in math:
 Having
@@ -186,3 +188,5 @@ does not imply that
 \begin{align}
 \frac{a + e}{b + f} > \frac{c +g}{d + h}
 \end{align}
+
+Thank you for reading,
