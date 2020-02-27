@@ -189,4 +189,4 @@ does not imply that
 \frac{a + e}{b + f} > \frac{c +g}{d + h}
 \end{align}
 
-Thank you for reading,
+Thank you for reading!
