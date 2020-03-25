@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: ""
-excerpt: "About me"
+excerpt: "Nicholas Jin's personal website"
 author_profile: true
 redirect_from:
   - /about/
