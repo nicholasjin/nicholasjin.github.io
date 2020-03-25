@@ -1,8 +1,13 @@
 ---
-layout: post
-title: Welcome to Esoteria!
+title: 'Welcome to Esoteria!'
+date: 2020-02-26
+permalink: /posts/simpson/
+tags:
+  - paradoxes
+  - statistics
 ---
-This blog will be data science-centric, but I will often incorporate topics and concepts from a wide gamut of fields –– mathematics, physics, statistics, computer science, machine learning, AI, cryptography, game theory, and more. My background is broadly cross-sectional, and I know a number of not-even-that-funny-domain-specific-jokes, so let it not be said that you were not warned!
+
+This blog will be data science-centric, but I will often incorporate topics and concepts from a wide gamut of fields ― mathematics, physics, statistics, computer science, machine learning, AI, cryptography, game theory, and more. My background is broadly cross-sectional, and I know a number of not-even-that-funny-domain-specific-jokes, so let it not be said that you were not warned!
 
 Let's kick off the blog with a discussion on [**Simpson's Paradox**](https://en.wikipedia.org/wiki/Simpson's_paradox), a statistical phenomenon where trends in subpopulations disappear or reverse in the aggregate. I'll illustrate this paradox with two classical examples (batting averages year-over-year and a 1970s study on UC Berkeley's admissions of women), and then highlight an instance where it showed up in my analysis of a dataset.
 
@@ -13,7 +18,7 @@ The ACT/SAT score dataset is a popular introductory dataset. It tabulates averag
 ![](/images/scatter4.svg)
 
 
-Here we have average SAT and ACT scores scattered by state, and an ordinary linear regression with its associated 95% confidence interval (exercise for the reader: why does the 95% confidence band appear nonlinear?). This plot flies in the face of conventional wisdom –– some states are known for having good education, some are known for having bad education, and it is not an unreasonable belief that states with better education should perform better on both exams. I would further assert that  a top scoring SAT student should do relatively well on the ACT, and so this trend should manifest on an individual basis. So why is it that we do not observe this? **If our prior beliefs are true, why does this trend disappear in the aggregate?**
+ Here we have average SAT and ACT scores scattered by state, and an ordinary linear regression with its associated 95% confidence interval (exercise for the reader: why does the 95% confidence band appear nonlinear?). We're going to ignore the fact that linear regression appears ill-suited to this particular task. This plot flies in the face of conventional wisdom ― some states are known for having good education, some are known for having bad education, and it is not an unreasonable belief that states with better education should perform better on both exams. I would further assert that a top scoring SAT student should do relatively well on the ACT, and vice-versa: on an individual basis, the two test scores should correlate positively. So why is it that we do not observe this? **If our prior beliefs are true, why does this trend disappear in the aggregate?**
 
 Obviously this ties in to Simpson's Paradox (else I wouldn't be writing about it!), but let us humor some alternative explanations. A very plausible hypothesis is that my prior beliefs are simply wrong. Maybe the educational apparatus of the state has no impact on the results of standardized tests (this would be somewhat alarming if true, since some states explicitly use the SAT or ACT as their state-wide standardized test).
 
@@ -57,7 +62,7 @@ The tables in the next two sections are taken from the Wikipedia article on Simp
 </table>
 
 
-In the data above, David Justice has higher yearly batting averages, but when taken together Derek Jeter's batting average is significantly higher over the same time period. Here the effect arises because of the discrepancy of sample sizes –– if we compare Derek Jeter's 1996 batting average to David Justice's 1995, it becomes manifestly obvious that Derek Jeter is the better batter, but since we compare chronological samples of different statistical significance, we can observe a "paradoxical" result.
+In the data above, David Justice has higher yearly batting averages, but when taken together Derek Jeter's batting average is significantly higher over the same time period. Here the effect arises because of the discrepancy of sample sizes ― if we compare Derek Jeter's 1996 batting average to David Justice's 1995, it becomes manifestly obvious that Derek Jeter is the better batter, but since we compare chronological samples of different statistical significance, we can observe a "paradoxical" result.
 
 ## UC Berkeley Admission Rates
 
@@ -167,7 +172,7 @@ by number of applicants for each gender are italicised.
 The study concluded that more departments actually admitted women at a higher rate than men. What ultimately brought women's admission rate down was the fact that women tended to apply to more selective departments. A large number of men were admitted to the largest, least selective departments, inflating their overall admittance percentage. Thus, even if most departments admit women at a higher rate than men, it is possible for women's overall admittance rate to be lower!
 
 
-## ACT/SAT, Redux
+## Conclusion: ACT/SAT, Redux
 Now let us return to the SAT/ACT data. We've implied that Simpson's Paradox is involved here, so without further ado:
 
 
@@ -178,15 +183,6 @@ Each state is colored by the relative difference in participation rate of SAT/AC
 
 Thus, for this dataset, we have resolved Simpson's Paradox. Our spurious negative correlation is the result of a selection bias. Most students choose to take either the SAT or the ACT (but not both), depending primarily on where they live. Since it costs resources (money, time, energy, etc.) to prepare for a non-mandatory standardized test, only those that are better equipped to take the alterative do so, so alternative test scores are in general higher than the mandatory one.
 
-Consider Connecticut, a state that had **mandatory SAT testing in 2017**. Every graduating senior in the state took the test, prepared or not. The graduating seniors that took the 2017 ACT in Connecticut were those that *went out of their way* to do so, and therefore were disproportionately prepared for that exam. Thus, the average ACT score for that state was higher than what you might expect if it had been mandatory. Since in this case the ACT was an alternative test, it was subject to a selection bias, and this is true of alternative tests in general.
-
-## Simpson's Paradox, in math:
-Having
-\[\frac ab > \frac cd\]
-\[\frac ef > \frac gh\]
-does not imply that
-\begin{align}
-\frac{a + e}{b + f} > \frac{c +g}{d + h}
-\end{align}
+Consider Connecticut, a state that had **mandatory SAT testing in 2017**. Every graduating senior in the state took the test, prepared or not. Only a small subset of these students took the alternative test, and *went out of their way* to do so. They were disproportionately prepared for that exam, so their average ACT scores (and thus, the average ACT score for their state) were higher than what you might expect if it had been mandatory. Since in this case the ACT was an alternative test, it was subject to a selection bias, and this is true of alternative tests in general.
 
 Thank you for reading!
