@@ -12,7 +12,7 @@ I'm a physicist-turned-data-scientist living in the Greater Boston area. My spec
 
 My passion is for adversarial systems, including (but not limited to) cryptosystems, game design, GANs, and game-theoretic frameworks. Did you know that there is a [game-theoretical framework for probability theory](http://www.probabilityandfinance.com/)?
 
-I am also a big believer in online privacy and anonymity, and in exercising security best practices always, against threats both real and imagined. As the name of my site implies, I think there is no such thing as *too paranoid* when it comes to designing secure systems.
+I am also a big believer in online privacy and anonymity, and in exercising security best practices always, against threats both real and imagined. As the name of my site implies, I think there is no such thing as *too paranoid* when it comes to designing secure systems or living a secure and private life.
 
 
 # Currently
