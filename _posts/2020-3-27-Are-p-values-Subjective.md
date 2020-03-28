@@ -17,20 +17,26 @@ Is this coin biased in favor of heads?
 
 ## Naive approach
 Bob declares the number of heads $N_H$ to be the random variable of interest. He assumes the null hypothesis that the coin is fair: $\mathcal H_0: p_H = p_T = 0.5$. Then the probability that Alice flipped 3 or fewer heads is
+$$
 \begin{align}
-P(N_H \le 3 | N=12, \mathcal H_0) =& \sum_{N=0}^3 C(N, N_H) \left(\frac 12\right)^{N} = 0.07
+P(N_H \le 3 | N=12, \mathcal H_0) =& \sum_{N=0}^3 \begin{pmatrix}N\\N_H\end{pmatrix} \left(\frac 12\right)^{N} = 0.07
 \end{align}
-where $C(n,k)$ denotes "$n$ choose $k$". Bob concludes that at a 5% significance level, there is no significant evidence that our coin is biased towards $H$. All of this is fairly standard frequentist treatment on the fairness of flipped coins.
+$$
+Bob concludes that at a 5% significance level, there is no significant evidence that our coin is biased towards $H$. All of this is fairly standard frequentist treatment on the fairness of flipped coins.
 
 ## But wait there's more!
 Alice quickly looks over Bob's calculation and tells him that the random variable in the experiment was not in fact $N_H$. Her experimental setup was to flip the coin until she arrived at a third tails, counting the number of flips $N$. Given this information, Bob needs to compute a different likelihood, namely: what is the likelihood that the first $N-1$ tosses contained exactly $N_H - 1$ heads, and then Alice flipped a heads:
+$$
 \begin{align}
-P(N | \mathcal H_0, N_H) = C(N-1, N_H - 1) \left(\frac 12\right)^{N}
+P(N | \mathcal H_0, N_H) = \begin{pmatrix}N-1\\N_H - 1\end{pmatrix} \left(\frac 12\right)^{N}
 \end{align}
+$$
 In our case, with $N = 12$ and $N_H = 3$, Bob gets:
+$$
 \begin{align}
 P(N \ge 12 | \mathcal H_0, N_H=3) = 0.03
 \end{align}
+$$
 So Bob concludes: at the 5% significance level, given that he now knows the experimental setup in more detail, he can reject the possibility that the coin was fair and conclude that the coin was biased in favor of heads.
 
 How can Bob arrive at two different conclusions given that he observed the same data? We might believe one of two things:
