@@ -24,7 +24,7 @@ $$
 Bob concludes that at a 5% significance level, there is no significant evidence that our coin is biased towards $H$. All of this is fairly standard frequentist treatment on the fairness of flipped coins.
 
 ## But wait there's more!
-Alice quickly looks over Bob's calculation and tells him that the random variable in the experiment was not in fact $N_H$. Her experimental setup was to flip the coin until she arrived at a third tails, counting the number of flips $N$. Given this information, Bob needs to compute a different likelihood, namely: what is the likelihood that the first $N-1$ tosses contained exactly $N_H - 1$ heads, and then Alice flipped a heads:
+Alice quickly looks over Bob's calculation and tells him that the random variable in the experiment was not in fact $N_H$. Her experimental setup was to flip the coin until she arrived at a third tails, counting the number of flips $N$. Given this information, Bob feels the need to compute a different likelihood that incorporates this stopping rule, namely: what is the likelihood that the first $N-1$ tosses contained exactly $N_H - 1$ heads, and then Alice flipped a heads:
 $$
 \begin{align}
 P(N | \mathcal H_0, N_H) = \begin{pmatrix}N-1\\N_H - 1\end{pmatrix} \left(\frac 12\right)^{N}
