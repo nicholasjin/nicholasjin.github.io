@@ -14,7 +14,9 @@ Consider the following scenario. Bob, a frequentist, observes Alice flip the sam
 `HHHTHHHHTHHT`
 
 Is this coin biased in favor of heads?
-$$\quad$$
+$$\begin{align}
+\quad
+\end{align}$$
 ## Naive approach
 Bob declares the number of heads $N_H$ to be the random variable of interest. He assumes the null hypothesis that the coin is fair: $\mathcal H_0: p_H = p_T = 0.5$. Then the probability that Alice flipped 3 or fewer heads is:
 $$
