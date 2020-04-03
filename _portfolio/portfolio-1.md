@@ -1,6 +1,6 @@
 ---
 title: "Coming soon!"
-excerpt: "This page is under construction. <br/><img src='/images/500x300.png'>"
+excerpt: "This page is under construction. In the meantime, please visit my [github](https://www.github.com/nicholasjin) <br/><img src='/images/500x300.png'>"
 collection: portfolio
 date: 01-01-1901
 ---
