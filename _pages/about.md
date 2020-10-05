@@ -17,17 +17,17 @@ I am also a big believer in online privacy and anonymity, and in exercising secu
 
 # Currently
 **Seeking**:
-* Full time opportunities in data science or analytics
+* Opportunities in data science or analytics
 
 **Doing**:
-* Playing around with reinforcement learning using [OpenAI's Gym](https://gym.openai.com/)
-* Contributing to data cleaning at Code for Boston's [Safe Water Project](https://github.com/codeforboston/safe-water)
-
-**Learning**:
+<!-- * Playing around with reinforcement learning using [OpenAI's Gym](https://gym.openai.com/) -->
+* Building an [analytics/simulation platform](https://github.com/nicholasjin/ALT) for a mobile game I play.
+<!-- **Learning**:
 * [Security Engineering](https://www.cl.cam.ac.uk/~rja14/book.html), by Ross Anderson
-* [Reinforcement Learning: An Introduction](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf), by Richard Sutton and Andrew Barto
+* [Reinforcement Learning: An Introduction](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf), by Richard Sutton and Andrew Barto -->
 
 **Reading**:
-* [Ward](https://parahumans.wordpress.com/), by John C. McCrae
+The Player of Games, by Iain M. Banks
+<!-- * [Ward](https://parahumans.wordpress.com/), by John C. McCrae -->
 
 Last updated 25 Mar 2020. [See my previous activities](/previously/)
