@@ -1,5 +1,5 @@
 ---
-title: "Intrusion detection system \| Incremental Learning, Cybersecurity"
+title: "Intrusion detection system"
 excerpt: "A network intrusion detector, built in Python, and trained on HTTP packet metadata. I demonstrate the efficacy of incremental machine learning classifiers on streaming data and benchmark my detector against two different anomaly detectors. <br/><img src='/images/creme-pipeline.svg'>"
 collection: portfolio
 ---
