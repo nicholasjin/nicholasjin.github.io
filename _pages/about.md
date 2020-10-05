@@ -28,7 +28,7 @@ I am also a big believer in online privacy and anonymity, and in exercising secu
 * [Reinforcement Learning: An Introduction](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf), by Richard Sutton and Andrew Barto
 
 **Reading**:
-The Player of Games, by Iain M. Banks
+* The Player of Games, by Iain M. Banks
 <!-- * [Ward](https://parahumans.wordpress.com/), by John C. McCrae -->
 
 Last updated 25 Mar 2020. [See my previous activities](/previously/)
