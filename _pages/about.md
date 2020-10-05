@@ -35,4 +35,4 @@ I am also a big believer in online privacy and anonymity, and in exercising secu
 * The Player of Games, by Iain M. Banks
 <!-- * [Ward](https://parahumans.wordpress.com/), by John C. McCrae -->
 
-Last updated 25 Mar 2020. [See my previous activities](/previously/)
+Last updated 05 Oct 2020. [See my previous activities](/previously/)
