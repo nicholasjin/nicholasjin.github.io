@@ -1,6 +1,6 @@
 ---
 title: "Electrical grid percolation analysis"
-excerpt: "We construct a flow graph approximating Massachusetts' electrical grid. We attempt to compute a percolation probability, using similated random failures, and find that the network as constructed does exhibit criticality. We conclude by highlighting the infrastructure most susceptible to targeted disruption. ![](./images/cover_plot.svg)"
+excerpt: "We construct a flow graph approximating Massachusetts' electrical grid. We attempt to compute a percolation probability, using similated random failures, and find that the network as constructed does exhibit criticality. We conclude by highlighting the infrastructure most susceptible to targeted disruption. <br/><img src='/images/cover_plot.svg'>"
 collection: portfolio
 ---
 
