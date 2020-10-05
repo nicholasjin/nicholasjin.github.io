@@ -8,11 +8,15 @@ redirect_from:
   - /about.html
 ---
 # About me
-I'm a physicist-turned-data-scientist living in the Greater Boston area. My specialties include simulation, modeling, and machine learning. My past work includes simulations of water vapor in turbulent atmosphere, Markov chain Monte Carlo sampling of barrier crossing problems, and coarse-grained molecular dynamics simulations of proteins.
+I'm a computational physicist by training, looking to apply my scientific expertise as a data scientist. My specialties include simulation, modeling, and machine learning.
 
-My passion is for adversarial systems, including (but not limited to) cryptosystems, game design, GANs, and game-theoretic frameworks. Did you know that there is a [game-theoretical framework for probability theory](http://www.probabilityandfinance.com/)?
+My modeling work includes simulations of water vapor in turbulent atmosphere, Markov chain Monte Carlo sampling of barrier crossing problems, coarse-grained molecular dynamics simulations of proteins, and a percolation analysis of Massachusetts' power grid.
 
-I am also a big believer in online privacy and anonymity, and in exercising security best practices always, against threats both real and imagined. As the name of my site implies, I think there is no such thing as *too paranoid* when it comes to designing secure systems or living a secure and private life.
+My statistical/machine learning work includes NLP classification of news headlines, regression modeling of housing prices, and a network intrusion detection system, trained on-the-fly with streaming packet metadata.
+
+My passion is for adversarial systems, including (but not limited to) cryptosystems, game design, fraud detection, and game-theoretic frameworks. Did you know that there is a [game-theoretical framework for probability theory](http://www.probabilityandfinance.com/)?
+
+I am also a big believer in online privacy and anonymity, and in exercising security best practices always, against threats both real and imagined. As the name of my site implies, I think there is no such thing as *too much paranoia* when it comes to designing secure systems or living a secure and private life.
 
 
 # Currently
