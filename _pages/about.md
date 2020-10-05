@@ -22,9 +22,10 @@ I am also a big believer in online privacy and anonymity, and in exercising secu
 **Doing**:
 <!-- * Playing around with reinforcement learning using [OpenAI's Gym](https://gym.openai.com/) -->
 * Building an [analytics/simulation platform](https://github.com/nicholasjin/ALT) for a mobile game I play.
-<!-- **Learning**:
+
+**Learning**:
 * [Security Engineering](https://www.cl.cam.ac.uk/~rja14/book.html), by Ross Anderson
-* [Reinforcement Learning: An Introduction](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf), by Richard Sutton and Andrew Barto -->
+* [Reinforcement Learning: An Introduction](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf), by Richard Sutton and Andrew Barto
 
 **Reading**:
 The Player of Games, by Iain M. Banks
