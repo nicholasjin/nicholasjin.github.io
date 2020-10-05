@@ -1,7 +1,6 @@
 ---
-title: "Coming soon!"
-excerpt: "This page is under construction. In the meantime, please visit my [github](https://www.github.com/nicholasjin) <br/><img src='/images/500x300.png'>"
+title: "Intrusion detection system | Incremental Learning, Cybersecurity"
+excerpt: "A network intrusion detector, built in Python, and trained on HTTP packet metadata. I demonstrate the efficacy of incremental machine learning classifiers on streaming data and benchmark my detector against two different anomaly detectors. <br/><img src='/images/creme-pipeline.svg'>"
 collection: portfolio
-date: 01-01-1901
 ---
 <!-- This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. -->
