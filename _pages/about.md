@@ -28,9 +28,9 @@ I am also a big believer in online privacy and anonymity, and in exercising secu
 * Building an [game analytics/simulation platform](https://github.com/nicholasjin/ALT).
 * [Advent of Code 2020](https://adventofcode.com/) - [My solutions repo](https://github.com/nicholasjin/advent-of-code-2020)
 
-**Learning**:
-* [Security Engineering](https://www.cl.cam.ac.uk/~rja14/book.html), by Ross Anderson
-* [Reinforcement Learning: An Introduction](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf), by Richard Sutton and Andrew Barto
+<!-- **Learning**: -->
+<!-- * [Security Engineering](https://www.cl.cam.ac.uk/~rja14/book.html), by Ross Anderson
+* [Reinforcement Learning: An Introduction](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf), by Richard Sutton and Andrew Barto -->
 
 **Reading**:
 * The Player of Games, by Iain M. Banks
